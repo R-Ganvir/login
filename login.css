@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(10, 10, 10);
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: white;
+
+}
+
+form{
+    width: 250px;
+    border-radius: 8px;
+}
+
+.log-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 14%;
+    border-radius: 4px;
+    
+}
+
+
+.log-head {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+h2{
+    margin: 15px 0px;
+}
+.log-body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inp , .btn{
+    margin-bottom: 18px;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.inp:hover , .btn:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.btn{
+    font-size: 1em;
+    background-color: rgb(64, 180, 225);
+}
+
+.log-foot{
+    float: right;
+    font-size: 15px;
+    
+}
+a{
+    text-decoration: none;
+}
+label{
+    margin-bottom: 2px;
+}
